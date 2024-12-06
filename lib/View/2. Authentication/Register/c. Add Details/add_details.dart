@@ -1,4 +1,4 @@
-// ignore_for_file: unused_import, unnecessary_null_comparison
+// ignore_for_file: unused_import, unnecessary_null_comparison, prefer_const_constructors, use_build_context_synchronously
 
 import 'package:app1/Model/usermodel.dart';
 import 'package:app1/Resources/App%20Colors/appcolors.dart';
@@ -62,7 +62,6 @@ class _AddDetailsState extends State<AddDetails> {
               MyButton(
                 text: "Register Now", 
                 onTap: (){
-                  // Get.to(() => HomePage()); 
                   if (formFieldKey.currentState!.validate()) {
                     FocusScope.of(context).unfocus();
 

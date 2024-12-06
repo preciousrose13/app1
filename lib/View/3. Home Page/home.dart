@@ -229,21 +229,6 @@ class _HomePageState extends State<HomePage> {
                                       );
                                     });
                                   },
-                                  // onHorizontalDragEnd: (details) {
-                                  //   setState(() {
-                                  //     if (_sliderPosition >= MediaQuery.of(context).size.width - 150) {
-                                  //       _isComplete = !_isComplete;
-                                  //       _sliderPosition = MediaQuery.of(context).size.width - 120;
-                                  //       Future.delayed(Duration(milliseconds: 500), () {
-                                  //         setState(() {
-                                  //           _sliderPosition = 0.0;
-                                  //         });
-                                  //       });
-                                  //     } else {
-                                  //       _sliderPosition = 0.0;
-                                  //     }
-                                  //   });
-                                  // },
                                   onHorizontalDragEnd: (details) {
                                     setState(() {
                                       if (_sliderPosition >= MediaQuery.of(context).size.width - 150) {
